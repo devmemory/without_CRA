@@ -43,7 +43,6 @@ module.exports = {
             favicon: 'public/favicon.ico'
         }),
         new webpack.DefinePlugin({
-            mode: process.env.mode,
             port: process.env.port
         })
     ],
