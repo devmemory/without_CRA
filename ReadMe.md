@@ -27,7 +27,7 @@
 5.2 clean-webpack-plugin : 이전 번들링 파일 제거  
 
 # 6. babel, webpack 설정 파일 작성
-6.1 babel.config.js : preset 설정등 정의  
+6.1 babel.config.js or .babelrc : preset 설정등 정의  
 6.2 webpack.config.js  
 I. 엔트리 포인트 설정  
 II. rules에 로더 설정 및 순서 배치(뒤의 요소부터 번들링에 반영)  
