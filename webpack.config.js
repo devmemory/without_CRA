@@ -17,7 +17,10 @@ module.exports = {
         publicPath: '/'
     },
     resolve: {
-        extensions: ['.js', '.jsx']
+        extensions: ['.js', '.jsx'],
+        alias: {
+            src: "src",
+        }
     },
     module: {
         rules: [

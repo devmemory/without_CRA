@@ -9,6 +9,7 @@ function App() {
 
     useEffect(() => {
         setTimeout(() => {
+
             setData(4)
         }, 2000);
     }, [])
